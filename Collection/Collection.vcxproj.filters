@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="astra">
+      <UniqueIdentifier>{d1be916c-6689-40e9-8a70-1beb85003edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="calibration">
+      <UniqueIdentifier>{60e2cdba-47c2-4970-8324-8437e7c481b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="agv control">
+      <UniqueIdentifier>{05162e6d-e8cb-42fa-8745-30b317965554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="global">
+      <UniqueIdentifier>{3c069368-7a13-496a-8b3f-5d88a0d67493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="algorithm">
+      <UniqueIdentifier>{6f2ef8eb-e256-4f35-af8b-adf14928a946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="robot arm">
+      <UniqueIdentifier>{a69f7137-191b-43e5-9c1a-4e2447e8f16a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mindvision">
+      <UniqueIdentifier>{95ab0716-390c-423f-97a2-7a656997a017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io file">
+      <UniqueIdentifier>{5e64b717-2e0b-4ee5-bfa3-1d5dbf0b6424}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="EachStageProcess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="robot arm\CoordinateTransformation.cpp">
+      <Filter>robot arm</Filter>
+    </ClCompile>
+    <ClCompile Include="robot arm\SerialPort.cpp">
+      <Filter>robot arm</Filter>
+    </ClCompile>
+    <ClCompile Include="robot arm\BaseRobotArm.cpp">
+      <Filter>robot arm</Filter>
+    </ClCompile>
+    <ClCompile Include="robot arm\RokaeRobotArm.cpp">
+      <Filter>robot arm</Filter>
+    </ClCompile>
+    <ClCompile Include="robot arm\YaskawaRobotArm.cpp">
+      <Filter>robot arm</Filter>
+    </ClCompile>
+    <ClCompile Include="global\GlobalVariable.cpp">
+      <Filter>global</Filter>
+    </ClCompile>
+    <ClCompile Include="mindvision\MindVision.cpp">
+      <Filter>mindvision</Filter>
+    </ClCompile>
+    <ClCompile Include="io file\IOFile.cpp">
+      <Filter>io file</Filter>
+    </ClCompile>
+    <ClCompile Include="calibration\CalibrateEyeInHand.cpp">
+      <Filter>calibration</Filter>
+    </ClCompile>
+    <ClCompile Include="astra\AstraCamera.cpp">
+      <Filter>astra</Filter>
+    </ClCompile>
+    <ClCompile Include="astra\AstraCameraD2C.cpp">
+      <Filter>astra</Filter>
+    </ClCompile>
+    <ClCompile Include="astra\d2cSwapper.cpp">
+      <Filter>astra</Filter>
+    </ClCompile>
+    <ClCompile Include="agv control\AgvControl.cpp">
+      <Filter>agv control</Filter>
+    </ClCompile>
+    <ClCompile Include="agv control\cJSON.c">
+      <Filter>agv control</Filter>
+    </ClCompile>
+    <ClCompile Include="agv control\dijkstra.cpp">
+      <Filter>agv control</Filter>
+    </ClCompile>
+    <ClCompile Include="agv control\Seer.cpp">
+      <Filter>agv control</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\OperateImage.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\OperatePointCloud.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\PointCloudPartitionForScan.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\RobotAlgorithm.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+    <ClCompile Include="algorithm\RoutePlaning.cpp">
+      <Filter>algorithm</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="timer.hpp">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EachStageProcess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="robot arm\CoordinateTransformation.h">
+      <Filter>robot arm</Filter>
+    </ClInclude>
+    <ClInclude Include="robot arm\SerialPort.h">
+      <Filter>robot arm</Filter>
+    </ClInclude>
+    <ClInclude Include="robot arm\BaseRobotArm.h">
+      <Filter>robot arm</Filter>
+    </ClInclude>
+    <ClInclude Include="robot arm\RokaeRobotArm.h">
+      <Filter>robot arm</Filter>
+    </ClInclude>
+    <ClInclude Include="robot arm\YaskawaRobotArm.h">
+      <Filter>robot arm</Filter>
+    </ClInclude>
+    <ClInclude Include="global\GlobalVariable.h">
+      <Filter>global</Filter>
+    </ClInclude>
+    <ClInclude Include="mindvision\MindVision.h">
+      <Filter>mindvision</Filter>
+    </ClInclude>
+    <ClInclude Include="io file\IOFile.h">
+      <Filter>io file</Filter>
+    </ClInclude>
+    <ClInclude Include="calibration\CalibrateEyeInHand.h">
+      <Filter>calibration</Filter>
+    </ClInclude>
+    <ClInclude Include="astra\AstraCamera.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="astra\AstraCameraD2C.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="astra\d2cSwapper.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="astra\FrameListener.h">
+      <Filter>astra</Filter>
+    </ClInclude>
+    <ClInclude Include="agv control\AgvControl.h">
+      <Filter>agv control</Filter>
+    </ClInclude>
+    <ClInclude Include="agv control\cJSON.h">
+      <Filter>agv control</Filter>
+    </ClInclude>
+    <ClInclude Include="agv control\dijkstra.h">
+      <Filter>agv control</Filter>
+    </ClInclude>
+    <ClInclude Include="agv control\Seer.h">
+      <Filter>agv control</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\OperateImage.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\OperatePointCloud.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\PointCloudPartitionForScan.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\RobotAlgorithm.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithm\RoutePlaning.h">
+      <Filter>algorithm</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
