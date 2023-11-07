@@ -9,6 +9,7 @@
       * AstraSDK（RGBD深度相机）  
       * rokaeSDK（珞石机械臂） 
       * Anaconda VILD环境（目标检测模型）
+      * MVCAMSDK（高清视觉相机）
   
 ## 1.环境配置
 ### 1.0 包含目录
@@ -48,4 +49,6 @@
 #### 1.1.4 Anaconda VILD
         anaconda_root/Anaconda3/envs/Env_VILD/include  
 ### 1.2 链接器输入
-        项目右击->属性->配置属性->链接器->输入
+        项目右击->属性->配置属性->链接器->输入  
+        将库目录中的所有*.lib文件名输入
+        MVCAMSDK_X64.lib python37.lib RokaeSDK.lib jsoncpp.lib astra.lib astra_core.lib astra_core_api.lib astra_jni.lib Shiny-static.lib opencv_world455.lib UVC-Swapper.lib OpenNI2.lib sfml-graphics-d.lib sfml-graphics.lib sfml-system-d.lib sfml-system.lib sfml-window-d.lib sfml-window.lib glew.lib glfw3.lib Open3D.lib png.lib qhullcpp.lib qhullstatic_r.lib tinyfiledialogs.lib tinyobjloader.lib turbojpeg-static.lib zlib.lib d2c.lib opengl32.lib
