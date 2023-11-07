@@ -13,7 +13,14 @@
 ## 1.环境配置
 ### 包含目录
         项目右击->属性->配置属性->VC++目录->包含目录  
-         * lib_root/rokae/include
+#### rokae
+        lib_root/rokae/include  
+#### open3d
+        lib_root/Open3D_v0.10.0/include  
+        lib_root/Open3D_v0.10.0/include/Open3D/3rdparty/Eigen  
+        lib_root/Open3D_v0.10.0/include/Open3D/3rdparty/GLFW/include  
+        lib_root/Open3D_v0.10.0/include/Open3D/3rdparty/glew/include  
+        lib_root/Open3D_v0.10.0/include/Open3D/3rdparty/fmt/include  
 ### 库目录
         项目右击->属性->配置属性->VC++目录->库目录
 ### 链接器输入
