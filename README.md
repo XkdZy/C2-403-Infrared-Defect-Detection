@@ -55,3 +55,8 @@
 ### 1.3 系统环境变量
         lib_root/opencv/build/x64/vc15/bin  
         lib_root/AstraSDK-vs2015-win64/thirdparty/SFML-min-64/bin  
+        lib_root/AstraSDK-vs2015-win64/thirdparty/SFML-min-64/bin  
+        
+## 2.工程说明
+### 2.0 系统环境变量
+
