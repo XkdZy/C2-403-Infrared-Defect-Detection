@@ -8,8 +8,8 @@
       * open3dv0.10.0  
       * AstraSDK（RGBD深度相机）  
       * rokaeSDK（珞石机械臂） 
-      * python3.7+VILD
+      * Anaconda VILD环境（目标检测模型）
   
 ## 1.环境配置
-      项目属性
+    包含目录
 
