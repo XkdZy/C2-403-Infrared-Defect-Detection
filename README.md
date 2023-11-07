@@ -33,5 +33,19 @@
         anaconda_root/Anaconda3/envs/Env_VILD/include  
 ### 1.1 库目录
         项目右击->属性->配置属性->VC++目录->库目录
+#### 1.1.0 opencv
+        lib_root/opencv/build/x64/vc15/lib  
+#### 1.1.1 open3d
+        lib_root/Open3D_v0.10.0/lib  
+#### 1.1.2 astra
+        lib_root/OpenIN2SDK/Samples/samples.old/ThirdParty/OpenNI2/x64-Release  
+        lib_root/OpenIN2SDK/Samples/samples.old/ThirdParty/d2c/lib/win64/release  
+        lib_root/OpenIN2SDK/Samples/samples.old/ThirdParty/UvcSwapper/x64-Release  
+        lib_root/AstraSDK-vs2015-win64/thirdparty/SFML-min-64/lib  
+        lib_root/AstraSDK-vs2015-win64/lib  
+#### 1.1.3 rokae
+        lib_root/rokae/include  
+#### 1.1.4 Anaconda VILD
+        anaconda_root/Anaconda3/envs/Env_VILD/include  
 ### 1.2 链接器输入
         项目右击->属性->配置属性->链接器->输入
